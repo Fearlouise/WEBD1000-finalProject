@@ -1,0 +1,45 @@
+/*
+Louise Fear w0483009
+February 02, 2023
+*/
+
+@charset "utf-8";
+
+body.homepageBody {
+    background-color: #A9BA9D;
+}
+
+#nav {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(240,218, 193, 0.55);
+    border-radius: 25px;
+    padding: 20px;
+    width: 475px;
+    height: 20px;
+}
+
+#homepageHeader {
+    font-family: 'Times New Roman', Times, serif;
+    color: #002800;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+section p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(240,218, 193, 1);
+    font-weight: bolder;
+}
+
+footer {
+    background-color: rgba(0, 53, 24, 0.25);
+    color: rgba(240,218, 193, 1);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    width: 190px;
+    height: 20px;
+}
+
