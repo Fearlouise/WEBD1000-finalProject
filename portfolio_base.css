@@ -5,6 +5,29 @@ February 02, 2023
 
 @charset "utf-8";
 
+@media only screen and (max-width: 767px) {
+    .grid-container  {
+        background-color: white;
+        padding: 20px
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #navUL{
+        list-style-type: none;
+        width: 100%;
+        overflow: auto;
+    }
+    #navUL li{
+        float:left;
+        width: 20%;
+        background-color: red;
+    }
+    #navUL li a{
+        
+    }
+}
+
 body.homepageBody {
     background-color: #A9BA9D;
 }
