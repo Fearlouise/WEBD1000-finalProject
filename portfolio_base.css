@@ -10,121 +10,208 @@ February 02, 2023
         background-color: white;
         padding: 20px
     }
+
+    label[for="hamburger"]{
+        font-size: 2em;
+        text-align: center;
+        float: right;
+    }
+
+    #intro h2 {
+        padding-top: 200px;
+        text-align: center;
+    }
+
+    #intro h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #personalInfo p{ 
+        text-align: center; 
+        width: 100%;
+        padding: auto;
+    }
+
+    #button h3 {
+        margin: auto;
+    }
+  
+    #nav a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        font-size: large;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        word-spacing: 30px;
+        letter-spacing: 2px;
+        float: right;
+        text-align: right;
+    }
+
+    #nav a:link {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #nav a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #nav a:hover {
+        text-decoration: none;
+        color:#DC143C;
+    }
+    
+    #nav a:active {
+        text-decoration: none;
+        color: #DC143C;
+    }
+
+    nav label {
+        display: inline-block;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    #nav, #hamburger {
+        display: none;
+    }
+
+    nav input:checked ~ #nav {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 768px){
-    #navUL{
-        list-style-type: none;
-        width: 100%;
-        overflow: hidden;
+    #nav {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        float: right;
+        text-align: right;
+        word-spacing: 30px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        margin-top: 15px;
     }
-    #navUL li{
-        float:left;
-        width: 20%;
-        background-color: red;
+    
+    #nav a:link {
+        text-decoration: none;
+        color: white;
     }
-    #navUL li a{
+    
+    #nav a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #nav a:hover {
+        text-decoration: none;
+        color:#DC143C;
+    }
+    
+    #nav a:active {
+        text-decoration: none;
+        color: #DC143C;
+    }
 
+    #hamnav {
+        width: 100%;
+    }
+
+    nav label, #hamburger {
+        display: none;
+    }
+
+    #intro h2 {
+        margin-left: 150px;
+        text-align: left;
+        justify-self: left;
+        padding-top: 300px;
+    }
+
+    #intro h1 {
+        margin-left: 150px;
+        text-align: left;
+        justify-self: left;
+        margin-top: 50px;
+    }
+
+    #personalInfo p {
+        margin-left: 150px;
+        text-align: left;
+        justify-self: left;
+        width:50%;
+        margin-top: 50px;
+    }
+
+    #button h3 {
+        margin-left: 150px;
+        margin-top: 300px;
     }
 }
 
 body {
-    background: #2d3337;
-    background-size: 100%;
+    background-color: #2d3337;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.17'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     background-attachment: scroll;
 }
 
-#nav {
-    font-family: 'Open Sans', Courier, monospace;
-    font-size: 18px;
-    float: right;
-    text-align: right;
-    word-spacing: 30px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    margin-top: 15px;
-    margin-right: 150px;
-}
-
-#nav a:link {
-    text-decoration: none;
-    color: white;
-}
-
-#nav a:visited {
-    text-decoration: none;
-    color: white;
-}
-
-#nav a:hover {
-    text-decoration: none;
-    color:#ff1493;
-    ;
-}
-
-#nav a:active {
-    text-decoration: none;
-    color: #ff1493;
-}
-
-#intro h1 {
-    font-family: 'Open Sans', Courier, monospace;
-    font-size: 90px;
-    color: white;
-    letter-spacing: 1px;
-    margin-top: 20px;
-    margin-left: 150px;
-    text-align: left;
-    justify-self: left;
-}
-
 #intro h2 {
-    font-family: 'Open Sans', Courier, monospace;
-    font-size: 22;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30;
     color: white;
     letter-spacing: 1px;
     font-weight: 400;
-    padding-top: 200px;
-    margin-left: 150px;
-    text-align: left;
-    justify-self: left;
+    padding-top: 350px;
+}
+
+#intro h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 110px;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 20px;
 }
 
 #personalInfo p{
-    font-family: 'Open Sans', Courier, monospace;
-    font-size: 18;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20;
     color: white;
-    width: 610px;
-    margin-top: -50px;
     font-weight: lighter;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-align: left;
-    justify-self: left;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-top: -30px;
 }
 
 #personalInfo p strong{
-    color: #ff1493;
+    color: #DC143C;
 }
 
 #button h3 {
-    font-family: 'Open Sans', Courier, monospace;
-    font-size: 18;
-    font-weight: bold;
-    width: 110px;
-    margin-left: 150px;
-    text-align: left;
-    justify-content: center;
-    margin-top: 120px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20;
+    font-weight: bolder;
     border: 1px;
     border-style: solid;
-    border-color: rgba(255,20,147,50%);
-    box-shadow: 0px 0px 15px 8px rgba(255,20,147,50%);
-    border-radius:5px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 13px;
-    padding-right: 13px;
+    border-color: rgba(220,20,60,40%);
+    box-shadow: 0px 0px 15px 8px rgba(220,20,60,40%);
+    border-radius: 0px 25px 0px 25px;
+    width:170px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color:rgba(220,20,60,70%);
+    margin-top: 150px;
 }
 
 #button a:link {
@@ -139,13 +226,12 @@ body {
 
 #button a:hover {
     text-decoration: none;
-    color:#ff1493;
-    ;
+    color:black;
 }
 
 #button a:active {
     text-decoration: none;
-    color: #ff1493;
+    color: black;
 }
 
 footer {
