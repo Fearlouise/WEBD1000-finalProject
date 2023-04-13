@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+#circle img {
+    margin-left: -300px;
+    margin-top: 200px;
+    position: fixed;
+    width: 1300px;
+    height: 1300px;
+    z-index: 0;
+}
+
+article h1 {
+    float: left;
+    margin-left: 5%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+#contact h1 {
+    margin-top: 700px;
+    font-weight: lighter;
+}
+
+#github h1 {
+    margin-top: 850px;
+    font-weight: lighter;
+}
+
+#linkedin h1 {
+    margin-top:1000px;
+    font-weight: lighter;
+}
+
+section a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+section a:link{
+    text-decoration: none;
+    color: white;
+}
+
+section a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+section a:hover{
+    text-decoration: none;
+    color:#DC143C;
+}
+
+section a:active{
+    text-decoration: none;
+    color:#DC143C;
+}
