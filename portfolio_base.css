@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 
 body {
@@ -6,13 +7,17 @@ background-image: url("data:image/svg+xml,%3Csvg width='48' height='32' viewBox=
     background-attachment: scroll;
 }
 
+
+
 nav h1 {
     position: fixed;
     margin-top: 10px;
     margin-left: 50px;
     font-size: 30px;
-    color: cyan;
+    color: white;
 }
+
+
 
 footer {
     width: 100%;
@@ -24,17 +29,20 @@ footer {
     text-align: center;
 }
 
+
+
 @media only screen and (min-width: 768px){
     #nav {
         font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
+        font-size: 15px;
         text-align: right;
-        word-spacing: 80px;
-        letter-spacing: 2px;
+        word-spacing: 50px;
+        letter-spacing: 5px;
         text-decoration: none;
         margin-top: 15px;
         position: fixed;
         right: 100px;
+        font-weight: lighter;
     }
     
     #nav a:link {
@@ -66,6 +74,8 @@ footer {
     }
 }
 
+
+
 @media only screen and (max-width: 767px) {
     .grid-container  {
         background-color: white;
@@ -82,14 +92,15 @@ footer {
         display: block;
         width: 100%;
         text-decoration: none;
-        font-size: large;
+        font-size: 15px;
         color: white;
         font-family: 'Open Sans', sans-serif;
         font-style: normal;
-        word-spacing: 30px;
-        letter-spacing: 2px;
+        letter-spacing: 5px;
+        margin-top: 15px;
         float: right;
         text-align: right;
+        font-weight: lighter;
     }
 
     #nav a:link {

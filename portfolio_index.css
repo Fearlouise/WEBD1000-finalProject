@@ -74,10 +74,10 @@ February 02, 2023
 
 #intro h2 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 30;
+    font-size: 25;
     color: white;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: lighter;
     padding-top: 350px;
 }
 
