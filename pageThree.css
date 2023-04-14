@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+.workEx {
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    font-size: 25px;
+    margin-top: 150px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+hr {
+    width: 140px;
+}
+
+
+.experience {
+
+    margin: 80px auto;
+    width: 350px;
+    border-left: 2px solid white;
+    padding: 0 20px 0 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+
+
+.experience div{
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    background: rgba(255,255,255,.2);
+    line-height: 1.7;
+    position: relative;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(220,20,60,60%);
+    box-shadow: 0px 0px 2px 4px rgba(220,20,60,60%);
+    border-radius: 0px 25px 0px 25px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.experience div:before{
+    content:'';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    border: 3px solid lightgrey;
+    position: absolute;
+    top: 10px;
+    left: -40px
+}
+
+.experience div:after {
+    content:'';
+    width:0;
+    height:0;
+    border-style: solid;
+    border-color: transparent rgba(220,20,60,60%) transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -17px;
+    top: 10px;
+}
+
+
+
+.experience div h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: lightgrey;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.experience div h3{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: light;
+    letter-spacing: 0.5px;
+    color: lightgrey;
+}
+
+.experience div h4{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: lightgrey;
+    font-weight: lighter;
+}
